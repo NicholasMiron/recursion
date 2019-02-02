@@ -16,6 +16,7 @@ var getElementsByClassName = function(className) {
             output.push(element);
         }
     } 
+    //Check all elements childNodes
     for(var i = 0; i < element.childNodes.length; i++) {
         checkelement(element.childNodes[i]);
     }
